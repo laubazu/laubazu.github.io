@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Final </title>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    
+</head>
+<body>
+  <!--Navegador-->
+  <header class="cd-auto-hide-header">
+    <div class="logo"><a href="#0"><img src="imagenes/imagenes-web/prodesa 1.jpg" alt="Logo"></a></div>
+  
+    <nav class="cd-primary-nav">
+      <a href="#cd-navigation" class="nav-trigger">
+        <span>
+          <em aria-hidden="true"></em>
+          Menu
+        </span>
+      </a> <!-- .nav-trigger -->
+  
+      <ul id="cd-navigation">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Galeria </a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="contacto.html">Contactos</a></li>
+       
+      </ul>
+    </nav> <!-- .cd-primary-nav -->
+  </header> <!-- .cd-auto-hide-header -->
+  <!--Fin del navegador -->
+ 
+<!--Java Script-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!--Final Java Script-->
+<!-- Swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/1.jpg" alt="1"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/2.jpg" alt="2"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/3.jpg" alt="3"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/4.jpg" alt="4"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/5.jpg" alt="5"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/6.jpg" alt="6"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/7.jpg" alt="7"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/8.jpg" alt="8"></div>
+      <div class="swiper-slide"><img src="imagenes/imagenes-web/9.jpg" alt="9"></div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  </main> <!-- .cd-main-content -->
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script>
+    if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+  </script>
+  <!--Fin Slider-->
+ 
+
+  <!--section-->
+<section class="a-container">
+  <article class="card">
+  <img src="imagenes/imagenes-web/Galeria/1.jpg" alt="1">
+  <h1>Estructura Arquitectonica </h1>
+  
+  
+  </article>
+  
+  <article class="card">
+    <img src="imagenes/imagenes-web/Galeria/2.jpg" alt="2">
+    <h1>Estructura Arquitectonica Bidimensional </h1>
+ 
+  </article>
+  
+  <article class="card">
+    <img src="imagenes/imagenes-web/3.jpg" alt="3">
+    <h1> Estructura Arquitectonica 3D</h1>
+  </article>
+
+
+  </article>
+  
+  </section>
+  <!--pie contenido-->
+<footer>
+  <p><strong>Laura Bautista Zuluaga</strong><br>
+      <a href="https://www.instagram.com/prodesa_col/">prodesa_col</a>
+      <ul>
+      <li class="contacto"><a href="#">Contacto: 3125630031</a></li>
+      <li class="facebook"><a href="#">Facebook: @ProdesaConstructora</a></li>
+      <li class="sitio-web"><a href="#">https://prodesa.com/</a></li>
+      <a href="https://prodesa.com/">Sitio Web</a>
+  </p>
+    
+</body>
+</html>
